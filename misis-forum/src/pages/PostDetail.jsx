@@ -87,7 +87,7 @@ export default function PostDetail() {
           {post.title}
         </h1>
 
-        {post.body && <p className="text-sm text-[#8888a0] leading-relaxed mb-3">{post.body}</p>}
+        {post.body && <p className="text-sm text-[#8888a0] leading-relaxed mb-3" style={{ whiteSpace: 'pre-wrap' }}>{post.body}</p>}
 
         {post.file_url && (
           <a href={post.file_url} target="_blank" rel="noreferrer"
