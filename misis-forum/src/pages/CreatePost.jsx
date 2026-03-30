@@ -5,7 +5,7 @@ import { useAuth } from '../context/AuthContext'
 
 const SUBS = ['general','study','exam','confess','notes']
 const SUB_LABELS = { general:'💬 Общее', study:'💡 Учёба', exam:'📝 Экзамены', confess:'🎭 Признания', notes:'📚 Конспекты' }
-const FLAIRS = ['1 курс','2 курс','3 курс','4 курс','Магистратура']
+const FLAIRS = ['1 курс','2 курс','3 курс','4 курс']
 
 export default function CreatePost() {
   const { user, profile } = useAuth()

@@ -14,10 +14,10 @@ export default function Header() {
 
           <Link to="/" className="flex items-center gap-2.5 no-underline">
             <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center font-mono font-semibold text-xs text-white">
-              МИ
+              ФМ
             </div>
             <div>
-              <div className="font-mono font-semibold text-sm text-white leading-none">MISIS.tj</div>
+              <div className="font-mono font-semibold text-sm text-white leading-none">ФОРУМ МИСИС</div>
               <div className="font-mono text-[10px] text-[#555568] leading-none mt-0.5">Душанбинский филиал</div>
             </div>
           </Link>
